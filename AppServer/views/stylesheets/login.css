@@ -1,0 +1,7 @@
+body.client{
+    background-image: 'images/background1';
+}
+
+body.admin{
+    background-image: 'images/background2';
+}

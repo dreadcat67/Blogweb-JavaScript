@@ -3,11 +3,11 @@
  */
 'use strict';
 import React from 'react';
-import 'css!./Logo.css';
+import './Logo.css';
 
 function Background(){
     return(
-        <div className = "jumbotron text-center">
+        <div  id="title-box" className = "jumbotron text-center">
             <h1> JBlog</h1>
         </div>
     );

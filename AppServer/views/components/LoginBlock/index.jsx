@@ -4,7 +4,7 @@
 import react from 'react';
 import LoginForm from "../LoginForm/LoginForm.jsx";
 import Logo from "../Logo/Logo.jsx";
-import 'css!./LoginBlock.css';
+import './LoginBlock.css';
 
 if (module.hot) {
     console.log('module hot is online');
@@ -14,12 +14,12 @@ if (module.hot) {
 function LoginPage() {
     return (
         <div>
-            <div id="title-box" className="jumbotron text-center">
-                <Logo />
-            </div>
+            <Logo />
             <div id="login-box" className="container-fluid">
                 <div className="row">
-                    <LoginForm />
+                    <div className="col-sm-12">
+                        <LoginForm />
+                    </div>
                 </div>
             </div>
         </div>

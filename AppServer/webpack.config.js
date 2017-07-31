@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
 
 var BUILD_DIR = path.resolve(__dirname, 'public/javascripts/');
-var APP_DIR = path.resolve(__dirname, 'views/components');
+var APP_DIR = path.resolve(__dirname, 'views/pages');
 
 module.exports = {
-    entry: APP_DIR + '/LoginBlock/index.jsx',
+    entry: APP_DIR + '/login.js',
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Hot Module Replacement'

@@ -20,6 +20,7 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "morgan": "~1.8.1",
+    "prop-types": "^15.5.10",
     "pug": "^2.0.0-rc.2",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
